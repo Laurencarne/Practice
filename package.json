@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "npm run lint && rimraf dist/ && tsc",
-    "dev": "nodemon src/index.ts",
-    "lint": "eslint src/**/*.ts",
-    "start": "npm run build && node dist/index.js",
     "test": "jest"
   },
   "keywords": [],
